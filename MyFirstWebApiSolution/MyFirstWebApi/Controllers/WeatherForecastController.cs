@@ -105,6 +105,7 @@ namespace MyFirstWebApi.Controllers
             return Ok($"Employee Id is: {employee.Id} and Employee Name is:{employee.Name} and Employee Address is:{employee.Address}" );
         }
 
+#region HTTP VERBS
 
         //[HttpPost]
         //public ActionResult AddAEmployee(int EmpId, string EmployeeName, string EmployeeAddres)
@@ -156,6 +157,7 @@ namespace MyFirstWebApi.Controllers
         //    }
 
         //}
+        #endregion
     }
 }
 
